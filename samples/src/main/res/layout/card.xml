@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/carbon_CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <tk.zielony.carbonsamples.applibrary.PicassoView
+        app:carbon_outAnimation="none"
+        android:scaleType="centerCrop"
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <carbon.widget.TextView
+        android:id="@+id/text"
+        android:singleLine="true"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Image desc"
+        android:textAppearance="?attr/carbon_textAppearanceTitle"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="@dimen/carbon_toolbarHeight" />
+</carbon.widget.CardView>
